@@ -1,11 +1,9 @@
-import { Container } from "./shared/components/container";
+import { InitialPage } from "./modules/initial-page/components";
 
 function App() {
   return (
     <div className="App">
-      <Container>
-        <div>teste</div>
-      </Container>
+        <InitialPage />
     </div>
   );
 }
